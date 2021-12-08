@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=new WeakMap,e=new class{constructor(){t.set(this,[])}push(e){t.get(this).push(e)}pop(){const e=t.get(this);return 0===e.length&&console.log("stack is empty"),e.pop()}peek(){const e=t.get(this);return 0===e.length&&console.log("stack is empty"),e[e.length-1]}get count(){return t.get(this).length}};e.push("a"),console.log(e.peek())})();
