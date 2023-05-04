@@ -1,0 +1,48 @@
+[{
+        "apiName": "google",
+        "dependent": [
+            "facebook",
+            "bidau",
+            "materlizecss",
+            "bootstrap"
+        ]
+    },
+    {
+        "apiName": "facebook",
+        "dependent": [
+            "bidau",
+            "materlizecss",
+            "bootstrap"
+        ]
+    }, {
+        "apiName": "bidau",
+        "dependent": [
+            "facebook",
+            "amazon",
+            "materlizecss",
+            "bootstrap"
+        ]
+    }, {
+        "apiName": "materlizecss",
+        "dependent": [
+            "facebook",
+            "bidau",
+            "bootstrap"
+        ]
+    }, {
+        "apiName": "Quora",
+        "dependent": [
+            "cssObjects",
+            "bidau",
+            "materlizecss",
+            "bootstrap",
+            "google"
+        ]
+    }, {
+        "apiName": "java",
+        "dependent": [
+            "python",
+            "golang"
+        ]
+    }
+]
